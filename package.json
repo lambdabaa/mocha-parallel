@@ -1,9 +1,9 @@
 {
-  "name": "mocha-parallel",
+  "name": "mopar",
   "version": "0.1.0",
-  "description": "Parallel test runner for mocha-ish things",
-  "author": "Gareth Aye <gaye@mozilla.com>",
-  "license": "MPL v2",
+  "description": "Parallel test runner for mocha-ish things, forked from mocha-parallel, by Gareth Aye",
+  "author": "Alexander Olsson <noseglid@gmail.com>",
+  "license": "MIT",
 
   "bin": {
     "mocha-parallel": "./mocha-parallel"
@@ -13,14 +13,5 @@
     "colors": "0.6.2",
     "commander": "2.1.0",
     "debug": "0.7.4"
-  },
-
-  "devDependencies": {
-    "mocha": "1.17.1",
-    "sinon": "1.8.2"
-  },
-
-  "scripts": {
-    "test": "mocha"
   }
 }
